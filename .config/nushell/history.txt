@@ -1,0 +1,3178 @@
+exa
+whereis firefox
+clear
+starship
+starship help init
+starship init nu | save -f ~/.cache/starship/init.nu
+nvim .config/nushell/env.nu
+clear
+ex
+exa
+clear
+exa -lah
+file .profile
+whereis nu
+chsh -l
+doas nvim /etc/shells
+chsh /home/sol/.cargo/bin/nu 
+chsh
+chsh -h
+chsh /home/sol/.cargo/bin/nu sol
+chsh -l
+chsh sol
+chsh -s /home/sol/.cargo/bin/nu
+ex
+clear
+ps -p $$
+ps $$
+ps
+ps|rg nu
+clear
+cargo install coreutils
+sccache cargo install coreutils
+sccache 
+whereis sccache
+nvim .cargo/config.toml
+cargo install coreutils
+ls
+ls -lah
+coreutils ls
+ls
+date now
+sys
+sys | get host
+sys | get host|get sessions
+sys | get host|get sessions|get 0
+sys | get host|get sessions|get 0|get groups
+sys | get host
+history
+clear
+htop
+nvim
+sys | get host
+clear
+neofetch
+ls
+htop
+clear
+doas shutdown now
+qutebrowser
+htop
+doas pacman -S sway
+cargo install exa
+cargo install du-dust
+cargo
+find cargo
+htop
+mlocate cargo
+which mlocate
+which cargo
+whereis cargo
+sh cargo
+echo $PATH
+env
+env|find PATH
+env|find PATH|bat
+env|find PATH|less
+env|find PATH
+.cargo/bin/cargo install exa
+cco
+cd .config
+exa
+cd nushell/
+exa
+config nu
+nvim
+$env.PATH
+$env.PATH|split row (char esep)
+$env.PATH|split row (char esep) | prepend '/home/sol/.local/bin'
+$env.PATH|split row (char esep) | prepend '/home/sol/.local/bin' '/home/sol/.cargo'
+$env.PATH|split row (char esep) | prepend '/home/sol/.local/bin' |prepend '/home/sol/.cargo'
+$env.PATH|split row (char esep) | prepend '/home/sol/.local/bin' |prepend '/home/sol/.cargo/bin'
+$env.EDITOR
+$config.buffer_editor
+nvim env.nu
+cd
+$env.EDITOR
+cd .config/nushell/
+$env.EDITOR
+$env.EDITOR| split row (char esep)
+nvim env.nu
+nvim config.nu
+$config.buffer_editor
+config nu
+cd .config/nushell/
+exa
+cd
+exa
+exa -lah
+nvim .zshrc
+$HOME
+$env.HOME
+bat .zshrc
+open .zshrc
+explore .zshrc
+explore -h
+explore -i .zshrc
+open .zshrc
+open .zshrc|pager
+config nu
+find $env.HOME | fzf
+find $env.HOME/.config | fzf
+find $env.XDG_DATA_HOME | fzf
+$env
+$env|get config
+$env|get XDG*
+$env|get XDG.*
+$env|explore
+clear
+$env.HOME|append 'aaaa'
+append
+append -h
+$env.HOME|str join 'aaaa'
+$env.HOME|str join 'aaaa' $env.HOME
+$env.HOME|str join 'aaaa' + $env.HOME
+str join -hd
+str join -h
+$env.HOME 'aaaaa'|str join
+$env.HOME |collect
+'aaaa'|collect
+find /home/sol/.config | fzf
+find /home/sol/.config | fzf | xargs nvim
+config
+config nu
+cd .config/nushell/
+nvim config.nu
+doas systemctl suspend
+cd
+clear
+coreutils cd Documents/Latex/Discretas/
+cd Documents/Latex/Discretas/
+exa
+mkcd notes-27-feb
+mkdir notes-27-feb
+exa
+cd notes-27-feb/
+exa
+mktex notes
+nnn
+exa
+nvim template.tex
+exa
+zathura template.pdf
+zathura --fork template.pdf
+nvim template.tex
+doas wifi-menu
+clear
+xbacklight -set 10
+xbacklight -set 100
+clear
+cargo install du-dust
+nvim notes.tex
+exa
+nvim
+qutebrowser
+nvim template.tex
+htop
+pkill picom
+htop
+cargo install exa starship bat zellij
+nvim template.tex
+latexmk -f -pdf template.tex
+rm template.pdf
+latexmk -f -pdf template.tex
+nvim template.tex
+doas systemctl suspend
+xbacklight -set 100
+xbacklight -set 10
+xbacklight -set 100
+cargo install ripgrep bob-nvim gitui irust bacon cargo-info
+cd
+config nu
+nvim
+htop
+gmrun
+env.nu
+env
+$env.nu
+echo $env.nu
+echo $env.HOME
+config nu
+config
+config nu
+cd .config/nushell/
+nvim config.nu
+coreutils cd
+cd
+find .cargo/bin/
+find .cargo/bin/ -name .
+find .cargo/bin/ -name *
+find .cargo/bin/ *
+find .cargo/bin/ .
+doas updatedb
+coreutils ls
+coreutils ls -lah
+ls
+cd .config/nvim/
+nvim init.vim
+config nu
+cd .config/nvim
+nvim init.vim
+config nu
+coreutils ls
+coreutils arch
+coreutils base64
+coreutils base64 -h
+cd
+cargo install ncspot porsmo speedtest-rs wiki-tui
+fmt
+whatis fmt
+coreutils fmt -h
+cd Documents/Latex/Discretas/
+exa
+mkdir 1-de-marzo
+nnn
+cd 1-de-marzo/
+exa
+mv template.tex Asig4DiegoEstrada.tex
+latexmk -f -pdf Asig4DiegoEstrada.tex
+exa
+zathura --fork Asig4DiegoEstrada.pdf
+nvim Asig4DiegoEstrada.tex
+doas systemctl suspend
+cd Documents/Latex/Discretas/
+exa
+cd 1-de-febrero/
+exa
+zathura --fork Asignacion1DiegoEstrada.pdf
+exa
+cd ..
+exa
+cd 22-de-febrero/
+exa
+zathura --fork Asig3DiegoEstrada.pdf
+cd
+cd Media/Downloads/
+exa
+open `List of mathematical symbols by subject - Wikipedia.html`
+qutebrowser `List of mathematical symbols by subject - Wikipedia.html`
+nvim Asig4DiegoEstrada.tex
+doas systemctl suspend
+xbacklight -set 10
+xbacklight -set 100
+nvim
+clear
+cd
+cd Documents/git/
+exa
+doas systemctl start dhcpcd@wlan0
+git clone https://github.com/AstroNvim/AstroNvim
+nvim
+git clone https://github.com/neovide/neovide
+cd Documents/git
+cd AstroNvim/
+exa
+nnn
+nvim
+nvim +PackerSync
+cd neovide/
+exa
+cd
+cd .config/nvim
+mv init.vim temp.vim
+exa
+nvim
+nnn
+nvim Asig4DiegoEstrada.tex
+bob use stable 0.8.0
+bob use 0.8.0
+nvim-bin
+cargo build --release
+config nu
+env nu
+exa
+cd src/
+exa
+cd editor
+exa
+cd ..
+exa
+cd target
+exa
+cd release
+exa
+./neovide
+exa
+cd ..
+neovide
+cd release/
+neovide -h
+./neovide -h
+cd
+cd .config/nushell/
+nvim env.nu
+which nvim
+env.PATH
+echo $env.PATH
+config
+config env
+which nvim
+nvim
+pacman -Ss foot
+nvim
+exa
+nnn
+config env
+cd .config/nvim
+nvim init.lua
+exa
+bat init.lua
+cd lua
+exa
+cd core
+exa
+nvim mappings.lua
+neovide -h
+neovide mappings.lua
+cd .config/nvim/
+bat temp.vim
+neovide mappings.lua
+cd lua/core/
+neovide mappings.lua
+cd ..
+nvim init.lua
+cd lua/core/
+neovide mappings.lua
+exa
+bat options.lua
+cd ..
+nvim init.lua
+exa
+neovide init.lua
+exa
+clear
+exa
+cd lua
+mkdir user
+cd user
+cd lua
+cd user
+touch user.lua
+cd .config/nvim/user
+cd .config/nvim/lua/user
+exa
+nvim user.lua
+cd ../..
+nvim init.lua
+cd lua/user
+nvim user.lua
+nvim
+doas systemctl suspend
+xbacklight -set 10
+xbacklight -set 100
+clear
+doas wifi-menu
+clear
+exa
+nvim user.lua
+cd
+cd Documents/Scripts/
+exa
+cd python
+exa
+nvim python1.py
+cd .config/nvim/lua/
+exa
+rm -rf user
+cp -r user_example user
+exa
+cd user
+exa
+nvim init.lua
+nvim python1.py
+python python1.py
+nvim python1.py
+cd
+cd Documents/Scripts/pytho
+cd Documents/Scripts/python/
+python python1.py
+xbacklight -set 50
+exa
+nvim mappings.lua
+xbacklight -set 100
+nvim python1.py
+python python1.py
+11
+python python1.py
+1!
+python python1.py
+cd .config/nvim
+nvim python1.py
+cd .config/nvim
+clear
+python python1.py
+nvim mappings.lua
+bat temp.vim
+picom
+doas pacman -Syu
+doas systemctl suspend
+cd
+clear
+cd
+clear
+exa
+startx
+sway
+zellij
+xbacklight -set 100
+xbacklight -set 10
+xbacklight -set 1000
+doas sway
+doas pacman -S polkit
+pkill sway
+sway
+cd .config/
+exa
+cd sway
+exa
+nvim config
+exa
+nvim keymap.config
+cd
+pkill sway
+sway
+nnn
+clear
+doas pacman -Syu
+sway
+cd .config
+cd sway
+nvim config
+nvim keymap.config
+cd
+doas pacman -S foot
+sway
+cd .config/sway/
+nvim config
+cd
+pkill sway
+sway
+cd .config/sway/
+nvim config
+cd
+sway
+cd .config/sway/
+nvim config
+cd
+st
+brightnessctl
+pacman -Ss brightnessctl
+doas pacman -S brightnessctl
+brightnessctl -l
+brightnessctl -l -c backlight
+doas brightnessctl -d acpi_video0 s 10%
+doas brightnessctl -d acpi_video0 s 100%
+clear
+qutebrowser
+cd .config/sway/
+nvim keymap.config
+exa
+pacman -Ss hypr
+paru -Ss hypr
+cd
+cd /usr/share/foot/
+exa
+cd themes
+exa
+cd
+cd .config/foot
+mkdir foot
+cd foot
+nvim foot.ini
+cd ..
+exa
+cd .config
+exa
+mkdir -p systemd/user/
+mkdir -P systemd/user/
+mkdir systemd
+cd systemd
+mkdir user
+cd user
+mkdir foot-server@.service.d
+cd foot-server@.service.d/
+nvim override.conf
+cd ..
+mkdir foot-server@.socket.d/
+cd foot-server@.socket.d/
+nvim override.conf
+doas systemctl daemon-reload
+echo ${WAYLAND_DISPLAY}
+bash
+echo $env.WAYLAND_DISPLAY
+echo ${env.WAYLAND_DISPLAY}
+echo $env.{WAYLAND_DISPLAY}
+echo $env.WAYLAND_DISPLAY.socket
+echo '$env.WAYLAND_DISPLAY'.socket
+echo '"$env.WAYLAND_DISPLAY".socket'
+echo "$env.WAYLAND_DISPLAY".socket
+echo $env.WAYLAND_DISPLAY'.socket'
+echo $env.WAYLAND_DISPLAY".socket"
+echo $env.WAYLAND_DISPLAY
+doas systemctl enable foot-server@wayland-1.socket
+doas systemctl enable foot-server@.socket
+footclient
+footclient
+foot --server
+cd ..
+cd sway
+exa
+nvim config
+nvim keymap.config
+clear
+pacman -Ss wayland
+cd .config/foot
+cd .config
+exa
+cd foot
+mkdir foot
+cd foot
+nvim foot.ini
+exa
+bat foot.ini
+cp /etc/xdg/foot/foot.ini .
+exa
+cd .config
+cd
+cd Documents/git/
+exa
+nvim st-5
+exa
+cd st-5
+exa
+nvim st.c
+nvim st.h
+nvim x.c
+exa
+nvim config.h
+nvim foot.ini
+footclient
+foot
+nvim foot.ini
+foot
+nvim foot.ini
+neofetch
+foot
+neofetch
+nvim foot.ini
+neofetch
+clear
+foot
+nvim foot.ini
+foot
+cd .config/foot
+nvim foot.ini
+mlocate locale
+mlocate
+locate locale
+locate locale|bat
+nvim /etc/locale.conf
+cd Documents/Scripts/
+exa
+cd rust
+exa
+cargo new mandelbrot
+cargo new guessing game
+cargo new guessing_game
+exa
+nvim
+cd .config/nvim
+nvim temp.vim
+cd
+nvim 
+bat .zshrc
+cd Documents/
+exa
+cd vimwiki/
+neovide
+cd
+cd Documents/git/
+paru -Ss hyprland
+git clone https://aur.archlinux.org/hyprland.git
+cd hyprland/
+exa
+bat PKGBUILD
+cargo install fd
+cargo-info fd
+cargo-info --help
+cargo-info info fd
+makepkg -si
+exa
+cd src
+exa
+cd
+hyprland
+hyprctl
+Hyprland 
+tldr
+qutebrowser
+cd .config/sway
+nvim keymap.config
+bat keymap.config
+rg qutebrowser keymap.config
+QT_QPA_PLATFORM=wayland; QT_WAYLAND_DISABLE_WINDOWDECORATION=1; qutebrowser
+sh
+pacman -Ss qt
+cd
+cd Documents/Scripts/
+cd rust
+exa
+cd guessing_game/
+exa
+neovide src
+cd Documents/Scripts/rust/guessing_game/
+neovide src
+exa
+cargo run
+cd Documents/Scripts/rust/guessing_game/
+exa
+nvim Cargo.toml
+cargo run
+cd src
+cd Documents/Scripts/rust/guessing_game/
+cargo run
+nvim main.rs
+clear
+cd
+cd Documents/Latex/Discretas/
+date
+date now
+exa
+cd 1-de-marzo/
+exa
+ls
+pacman -Ss wayland|browser
+pacman -Ss wayland|rg browser
+rg aaaa
+pacman -Ss wayland|rg wayland
+pacman -Ss browser|moar
+zathura --fork Asig4DiegoEstrada.pdf
+clear
+doas pacman -S firefox
+nvim Asig4DiegoEstrada.tex
+cd
+cd Documents/git
+ls
+git clone https://github.com/catppuccin/zathura.git
+exa
+ls
+clear
+ls
+cd zathura
+ls
+ls src
+cp -r src /home/sol/.config/zathura
+cd
+cd .config/zathura
+ls
+nvim zathurarc
+ls
+cp -r src/* .
+ls
+rm -rf src
+ls
+cd
+cd Documents/Latex/Discretas/
+ls
+cd 1-de-marzo/
+ls
+zathura Asig4DiegoEstrada.pdf
+cd .config/zathura
+ls
+bat zathurarc
+cd .config/zathura
+ls
+nvim zathurarc
+zathura Asig4DiegoEstrada.pdf
+bat catppuccin-frappe
+ls
+zathura Asig4DiegoEstrada.pdf
+echo $env.XDG_CONFIG_HOME
+ls
+cp catppuccin-frappe zathurarc
+bat zathurarc
+zathura Asig4DiegoEstrada.pdf
+sh
+cp /home/sol/.config/zathura/zathurarc /etc/zathurarc
+doas cp /home/sol/.config/zathura/zathurarc /etc/zathurarc
+zathura Asig4DiegoEstrada.pdf
+exa
+ls
+zathura
+cd Documents/Latex/Discretas/
+cd 1-de-marzo/
+ls
+zathura Asig4DiegoEstrada.pdf
+zathura --fork Asig4DiegoEstrada.pdf
+cd Documents/Latex/Discretas/
+cd 1-de-marzo/
+zathura --config=/home/sol/.config/zathura/zathurarc Asig4DiegoEstrada.pdf
+man zathura
+zathura -c /home/sol/.config/zathura/ Asig4DiegoEstrada.pdf
+cd .config/zathura
+zathura Asig4DiegoEstrada.pdf
+zathura --fork Asig4DiegoEstrada.pdf
+nvim zathurarc
+clear
+latexmk -f -pdf Asig4DiegoEstrada.tex
+nvim Asig4DiegoEstrada.tex
+rm Asig4DiegoEstrada.pdf
+latexmk -f -pdf Asig4DiegoEstrada.tex
+cd Documents/Latex/Discretas/
+exa
+ls
+cd notes-27-feb/
+ls
+nvim Asig4DiegoEstrada.tex
+latexmk -f -pdf Asig4DiegoEstrada.tex
+nvim Asig4DiegoEstrada.tex
+latexmk -f -pdf Asig4DiegoEstrada.tex
+doas systemctl suspend
+sgh
+sh
+ls
+sys
+ls -lah
+nvim .zshrc
+zsh
+cd Documents/Scripts/shell/
+exa
+bat updt.sh
+ls | grep sh
+ls | rg sh
+find /usr/bin/sh
+locate /usr/bin/sh
+cd
+sh
+zsh
+nvim .zshrc
+doas wifi-menu
+firefox
+doas pacman -Syu
+clear
+ping 9.9.9.9=
+ping 9.9.9.9
+doas reboot now
+zsh
+cbonsai
+asciiquarium
+bat .zshrc
+systemctl set-ntp true
+clear
+doas sysctemctl start dhpcd@wlan0
+doas systemctl start dhpcd@wlan0
+doas systemctl start wlan0@dhcpcd
+doas systemctl list-units | rg dhcpcd
+doas systemctl start dhcpcd@wlan0
+ping 9.9.9.9\
+ping 9.9.9.9
+doas wifi-menu
+sway
+lynx
+lynx startpage.com
+ping 9.9.9.9
+pacman -Ss systemd-networkd
+pacman -Qs systemd-networkd
+systemctl list-units | rg systemd
+systemctl list-units | rg network
+tmux
+clear
+doas systemctl suspend
+ping 9.9.9.9.
+ping 9.9.9.9
+doas pacman -Syu
+exa
+ls
+ls | get 0
+ls -h
+ls -f ..
+ls -f .
+man ls
+ls 
+ls --help
+ls -la
+ls
+zsh
+clear
+cd .config/sway
+nvim keymap.config\
+nvim keymap.config
+cd Documents/Scripts/rust
+cd guessing_game/
+exa
+cd Documents/Scripts/rust
+ls
+cd guessing_game/
+ls
+cd Documents/Scripts/rust
+cd guessing_game/
+cargo run
+nvim src
+cd src
+swallow neovide main.rs
+whereis swallow
+find / -name swallow
+find / -r .*swallow
+find --help
+ls
+ls -h
+locate swallow
+ls
+neovide main.rs
+cargo run
+doas systemctl suspend
+xbacklight -set 1000
+brightnessctl -l -c backlight
+doas brightnessctl -d acpi_video0 s 100%
+bacon
+cargo run
+cd Documents/Scripts/rust
+cd guessing_game/src
+neovide main.rs
+ls
+nvim Cargo.toml
+cargo run
+cd Documents/Scripts/rust
+cd guessing_game/src
+bacon clippy-all
+cargo clippy
+cargo clippy -- -A clippy::all
+ls
+nvim main.rs
+cd ..
+ls
+cd ..
+ls
+cd mandelbrot
+cd src
+nvim main.rsr
+cd Documents/Scripts/cpp/
+ls
+bat mandelbrot-lambda/
+ls
+cd mandelbrot-lambda/
+ls
+cd ..
+cd mandelbrot/
+nvim main.rs
+rustc --explain E0423
+cd Documents/Scripts/rust/
+cd mandelbrot/
+nvim Cargo.toml
+doas systemctl suspend
+neovide main.rs
+doas systemctl suspend
+bat main.cpp
+cd .config
+ls
+clear
+ls
+ls -hea
+nvim starship.toml
+clear
+picom
+hyprland
+Hyprland 
+pkill Hyprland
+Hyprland
+doas systemctl suspend
+doas brightnessctl -d acpi_video0 s 50%
+brightnessctl -l -c backlight
+brightnessctl -l -c backlight|rg " '.*' "
+man rg
+man rg|moar
+brightnessctl -l -c backlight|rg -o " '.*' "
+brightnessctl -l -c backlight|rg -o "'.*'"
+brightnessctl -l -c backlight|rg -o " '.*' "
+cd Documents/Scripts/shel
+cd Documents/Scripts/shell/
+nvim backlight.sh
+dash
+doas pacman -S dash
+dash
+ls
+ls|less
+dash backlight.sh
+dash -x backlight.sh
+nvim backlight.sh
+dash -x backlight.sh
+nvim backlight.sh
+doas pacman -S shellcheck
+shellcheck backlight.sh
+nvim backlight.sh
+shellcheck backlight.sh
+cd Documents/Scripts/shell
+shellcheck backlight.sh
+dash -x backlight.sh
+dash -x backlight.sh 10
+shellcheck backlight.sh
+dash -x backlight.sh 10
+shellcheck backlight.sh
+dash -x backlight.sh 10
+dash -x backlight.sh
+expr "" : "^[0-9]+$"
+expr "1" : "^[0-9]+$"
+expr "0" : "^[0-9]+$"
+expr "0" : "^[0-9]+"
+expr "0" : "[0-9]+"
+expr "0" : "[0-9]*"
+expr "" : "[0-9]*"
+expr "" : "^[0-9]*$"
+expr "1" : "^[0-9]*$"
+expr "12" : "^[0-9]*$"
+expr "12 " : "^[0-9]*$"
+shellcheck backlight.sh
+dash -x backlight.sh
+dash -x backlight.sh 10
+shellcheck backlight.sh
+dash -x backlight.sh 10
+shellcheck backlight.sh
+dash -x backlight.sh 10
+dash -x backlight.sh 100
+nvim backlight.sh
+chmod +x backlight.sh
+man expr
+cp Documents/Scripts/shell/backlight.sh .local/bin/
+backlight.sh 30
+backlight.sh 10
+backlight.sh 100
+cd .config
+ls
+cd kitty
+ls
+cd ..
+cd zathura
+ls
+nvim catppuccin-macchiato
+pacman -Ss racket
+bacon
+doas pacman -S racket
+racket 
+doas systemctl suspend
+doas systemctl start dhcpcd@wlan0
+doas systemctl enable dhcpcd@wlan0
+clear
+racket
+wiki
+doas pacman -Syu
+fzf
+ping 9.9.9.9
+clear
+fetch
+git clone https://github.com/Sunglas/Scripts.git
+rm -rf Scripts/
+cd Documents/git/
+exa
+rm -rf Scripts/
+git clone https://github.com/Sunglas/Scripts.git
+nnn
+cd ..
+ls
+zathura Asig4-Demostraciones.pdf
+zathura --fork Asig4-Demostraciones.pdf
+cd Latex/Discretas/
+ls
+cd Documents/
+ls
+zathura --fork Asig5-Induccion-AlgDiv.pdf
+mkdir 8-de-marzo
+cd 8-de-marzo
+ls
+cd Documents/Latex/
+cd Discretas/1-de-marzo
+ls
+latexmk -f -pdf Asig5DiegoEstrada.tex
+bat Asig4DiegoEstrada.tex
+cd ../8-de-marzo/
+ls
+zathura --fork Asig5DiegoEstrada.pdf
+latexmk -f -pdf Asig5DiegoEstrada.tex
+cd Documents/
+cd
+cd Downloads/
+ls
+cd ..
+rm -rf Downloads/
+cd Media/Downloads/
+ls
+zathura --fork pdfslide.net_discrete-mathematics-with-graph-theory-2nd-edition.pdf
+latexmk -f -pdf Asig5DiegoEstrada.tex
+zathura --fork `Discrete Mathematics 6th edition ( PDFDrive ).pdf`
+latexmk -f -pdf Asig5DiegoEstrada.tex
+cd Media/Downloads/
+latexmk -f -pdf Asig5DiegoEstrada.tex
+nvim Asig5DiegoEstrada.tex
+doas systemctl suspend
+latexmk -f -pdf Asig5DiegoEstrada.tex
+bc
+eit
+latexmk -f -pdf Asig5DiegoEstrada.tex
+rm Asig5DiegoEstrada.pdf
+latexmk -f -pdf Asig5DiegoEstrada.tex
+cd Documents/Latex/
+exa
+ls
+cd Discretas/
+ls
+cd notes-27-feb/
+ls
+zathuar template.pdf
+zathura template.pdf
+cd ../notes-15-feb/
+ls
+latexmk -f -pdf Asig5DiegoEstrada.tex
+zathura notes.pdf
+footclient
+latexmk -f -pdf Asig5DiegoEstrada.tex
+nvim Asig5DiegoEstrada.tex
+cd
+clear
+cd
+cd .config/nushell/
+ls
+nvim config.nu
+cd .config/nushell/
+show-banner
+nvim config.nu
+source
+clear
+nushell
+nu
+$env.config
+nu
+config nu
+zathura pdfslide.net_discrete-mathematics-with-graph-theory-2nd-edition.pdf
+zathura template.pdf
+$env.config
+$env.config.show_banner false
+set 
+$env.config.show_banner
+$env.config.show_banner=false
+export $env.config.show_banner=false
+$env.config
+config env
+config nu
+help commands
+help commands|table |less -FRX
+help commands|table |moar
+help alias
+$nu.scope.commands
+$nu.scope.commands|moar
+alias foo = echo "this is a test"
+foo
+config nu
+clear
+doas systemctl suspend
+backlight.sh 100
+backlight.sh 10
+backlight.sh 100
+clear
+cd Documents/Scripts/
+cd ..
+cd rust
+cd Scripts/rust
+ls
+cd Documents/Scripts/shell/
+ls
+bat ascii.sh
+config nu
+ls
+^ls
+ls
+^ls
+ls
+config env
+cd
+cd .config/foot/
+ls
+ls /usr/share/foot/themes/
+config env
+config nu
+ls /usr/share/foot/themes/
+nvim foot.ini
+daemonize foot --server
+^daemonize foot --server
+nvim
+clear
+config nu
+cd .config/foot/
+zsh
+printf '\033[4 q'
+sh
+printf '\033[4 q'
+foot
+clear
+ls
+open go
+ls go
+rm -rf go
+doas rm -rf go
+ls
+ls foot
+rm -rf foot
+ls
+ls -a
+nvim foot.ini
+clear
+cd
+cd Documents/Scripts/rust
+cd Documents/Scripts/shell
+ls
+open WMbuttons-new.sh
+ls
+open wiki-viewer
+cargo new wiki_viewer
+cd wiki_viewer/
+cd src
+bat wiki-viewer
+moar wiki-viewer
+./wiki-viewer
+./wiki-viewer grep
+./wiki-viewer gr
+moar wiki-viewer
+cd Documents/Scripts/rust/
+ls
+cd wiki_viewer/
+cargo run
+cargo install porsmo
+porsmo
+porsmo --help
+porsmo help
+porsmo pomodoro
+nvim main.rs
+cd ..
+git clone https://github.com/ColorCookie-dev/porsmo.git
+cd porsmo/
+ls
+cd porsmo
+ls
+cd src
+ls
+nvim pomodoro.rs
+cargo run
+cargo run pomodoro.rs
+cargo build
+cd ../..
+cd rust/porsmo/
+ls
+cargo run
+cd porsmo
+cargo run
+ls
+bat README.md
+cargo run
+cargo build
+ls
+cd ..
+ls
+cd target/
+ls
+cd debug
+ls
+cd build
+ls
+cd ..
+ls
+cd examples/
+ls
+cd ..
+./libporsmo.d
+ls incremental/
+ls incremental/porsmo-1a6cpeq4qhoy0/
+cd ..
+ls
+cd porsmo
+ls
+cd src
+ls
+bat lib.rs
+nvim pomodoro.rs
+ls
+cp pomodoro.rs main.rs
+cargo run
+rm main.rs
+doas systemctl suspend
+cd ..
+cd rust
+cargo new pomodoro
+cd pomodoro/
+cd src
+nvim main.rs
+cargo add colored
+nvim main.rs
+cd ..
+nvim Cargo.toml
+cd src
+porsmo
+cd ../..
+cd ..
+cd pomodoro/
+cargo run
+cd Documents/Scripts/rust
+cd pomodoro
+cargo run
+cd Documents/Scripts/rust/
+cd porsmo/
+cd src
+ls
+nvim main.rs
+neovide main.rs
+cargo add timer
+ls
+open Cargo.toml | to toml
+open Cargo.toml
+open Cargo.toml|to toml
+bat pomodoro.rs
+open pomodoro.rs
+bat pomodoro.rs
+moar pomodoro.rs
+neovide src/main.rs
+open Cargo.toml|to toml
+doas systemctl start dhcpcd@wlan0
+cd Documents/Latex/Discretas/
+ls
+cd 8-de-marzo
+ls
+rm \\
+rm ./\\
+rm ./\
+ls
+touch \\
+ls
+rm \\
+ls
+touch \
+ls
+rm \
+ls
+zathura --fork Asig5DiegoEstrada.pdf
+latexmk -f -pdf Asig5DiegoEstrada.tex
+nvim Asig5DiegoEstrada.tex
+doas systemctl suspend
+cd
+nvim
+ls
+nvim
+cd Documents/vimwiki/
+ls
+open ccom3030_python1.md
+ls
+glow
+doas systemctl start dhcpcd@wlan0
+doas wifi-menu
+doas systemctl suspend
+doas systemctl start dhcpcd@wlan0
+doas wifi-menu
+lls
+ls
+glow
+clear
+ssh -p bandit.labs.overthewire.org -l bandit0
+ssh -p 2220 bandit.labs.overthewire.org -l bandit0
+ssh -p 2220 bandit.labs.overthewire.org -l bandit1
+ssh -p 2220 bandit.labs.overthewire.org -l bandit2
+ssh -p 2220 bandit.labs.overthewire.org -l bandit3
+ssh -p 2220 bandit.labs.overthewire.org -l bandit4
+ssh -p 2220 bandit.labs.overthewire.org -l bandit5
+man find
+man file
+du
+man du
+man type
+type
+man find
+man file
+man find
+ssh -p 2220 bandit.labs.overthewire.org -l bandit6
+ssh -p 2220 bandit.labs.overthewire.org -l bandit7
+man grep
+man uniq
+nvim test
+ssh -p 2220 bandit.labs.overthewire.org -l bandit8
+clear
+doas systemctl suspend
+cd .config
+cd foot
+ls
+cd /usr/share/foot/
+ls
+cd themes
+ls
+bat tango
+bat nord
+ls
+neofetch
+nvim foot.ini
+pkill foot --server
+doas systemctl start dhcpcd@wlan0
+feh
+ls -a
+cd Media/Downloads/
+ls
+doas pacman -Syu
+doas pacman -S polybar
+sh
+doas pacman -S swaybg
+pacman -Rns sway
+pacman -Ss sway
+clear
+cd Media/Downloads/
+swaybg toronto.xpm
+swaybg toronto.xpm -m tile
+swaybg -i ./toronto.xpm -m tile
+ls
+unzip texture.zip
+doas pacman -S unzip
+unzip texture.zip
+unzip topography.zip
+ls
+swaybg -i ./texture.svg -m tile
+swaybg -i ./topography.svg -m tile
+man swaybg
+cd Media/Downloads/
+nvim topography.svg
+cd .config
+cd
+cd .config/nvim
+ls
+doas pacman -S inkscape gimp
+nvim init.lua
+cd lua/core
+ls
+nvim options.lua
+nvim plugins.lua
+nvim bootstrap.lua
+nvim topography.svg
+cat topography.svg
+swaybg -i ./topography.svg -m tile
+swaybg -i ./texture.svg -m tile
+cp texture.svg texture2.svg
+nvim texture2.svg
+swaybg -i ./texture2.svg -m tile
+sed 's/#[0-9]*/#333/g' texture.svg
+sed 's/#[0-9 ]*/#333/g' texture.svg
+sed 's/#[0-9 ]*//g' texture.svg
+sed 's///g' texture.svg
+sed 's/.//g' texture.svg
+cat texture.svg
+sed 's/#[0-9]*/#555/g' texture.svg
+sed 's/#[0-9]*/#555/g' texture.svg > texture2.svg
+sed 's/#[0-9]*/#555/g' texture.svg | texture2.svg
+write
+write --help
+sed -i 's/#[0-9]*/#555/g' texture.svg
+swaybg -i ./texture.svg -m tile
+sed -i 's/#[0-9]*/#555/g' topography.svg
+swaybg -i ./topography.svg -m tile
+cd
+cd .config/sway
+cd Media
+mkdir Pictures
+cp topography.svg Media/Pictures/topography.svg
+cp topography.svg ../Media/Pictures/topography.svg
+cp topography.svg ../Pictures/topography.svg
+ls Pictures/
+nvim config
+ls
+inkscape
+cd .config/sway
+nvim config
+cd .config/sway
+nvim config
+doas pacman -S waybar
+waybar
+cd .config/
+ls
+mkdir waybar
+cd
+mv config .config/waybar/
+cd .config/waybar/
+ls
+waybar
+pacman -Ss japanese
+doas pacman -S kiten ipa-fonts ttf-hanazono ttf-sazanami
+nvim config
+cd .config/waybar/
+waybar
+cd .config/sway
+nvim config
+nvim keymap.config
+waybar
+nvim keymap.config
+waybar
+nvim keymap.config
+swaymsg rename workspace 1 to 二
+waybar
+nvim keymap.config
+nvim config
+waybar
+nvim config
+cp ~/style.css
+cp ~/style.css ./
+ls
+neofetch
+cd /usr/share/foot/themes
+fonts
+font
+fc-list
+fc-list|rg URW
+bat monokai-pro
+waybar
+nvim style.css
+nvim monokai-pro
+bat monokai-pro
+cd ../sway/
+nvim config
+cd
+cd Documents/git/
+ls
+cd AUR
+paur regreet-git
+cd regreet-git/
+ls
+makepkg -si
+doas pacman -S greetd gtk4
+doas pacman -S gtk4
+cd ..
+paur greetd
+ls
+paur greetd
+doas nvim /etc/greetd/sway-config
+cd regreet-git/
+bob use 0.8.0
+bob --help
+bob --install 0.8.0
+bob install 0.8.0
+bob sync
+echo $env.SUDO_EDITOR
+makepkg -si
+doas su
+ls
+cd regreet
+/-
+ls
+cd ..
+ls
+cd src
+ls
+cd regreet
+ls
+doas cp regreet.sample.toml /etc/greetd/regreet.toml
+man sway
+cd Media/Pictures/
+ls
+cd Media/Pictures/
+ls
+swaybg -i ./Shrine.jpg -m fill
+doas cp Shrine.jpg /usr/share/backgrounds/greeter.jpg
+doas su
+sway
+greetd 
+doas systemctl start dhcpcd@wlan0
+doas systemctl enable greetd.service
+doas reboot
+cd .config/sway/
+doas su
+doas systemctl start dhcpcd@wlan0
+doas systemctl suspend
+doas shutdown now
+doas systemctl start dhcpcd@wlan0
+cd /usr/share/foot/themes
+cd .config/foot/
+ls
+fc-list|rg jet
+pacman -Ss jet
+doas pacman -S ttf-jetbrains-mono-nerd
+nvim foot.ini
+fc-list|rg jetbrains
+fc-list|rg jet
+fc-list|rg jb
+fc-list|rg j
+fc-list|rg mono
+fc-list|rg m
+fc-list -v
+clear
+fc-list --help
+fc-list -b
+fc-list -b|rg jet
+fc-cache
+fc-list -b|rg jet
+fc-list
+fc-list -b|rg -i jet
+fc-list|rg -i jet
+nvim foot.ini\
+neofetch
+neofetch
+clear
+clear
+neofetch
+neofetch
+nvim foot.ini
+fethc
+fetch
+cd Documents/Scripts/rust
+ls
+cd fetch
+ls
+cd src
+ls
+nvim main.rs
+cargo build --release
+cargo run
+cd Documents/Scripts/rust
+cd fetch
+cargo run
+neofetch
+clear
+cargo run
+cargo build --release
+ls
+cd target/
+ls
+cd release/
+ls
+cp fetch ~/.local/bin
+cd
+fetch
+nvim main.rs
+clear
+cd
+cd .config/nvim/
+ls
+cd lua
+ls
+cp user_example user
+cp -r user_example user
+cd user
+ls
+nvim init.lua
+nvim +PackerSync
+nvim init.lua
+cd ../../..
+clear
+fetch
+clear
+fetch
+nvim starship.toml
+clear
+fetch
+clear
+cd .config
+cd foot/
+fetch
+nvim
+fethc
+fetch
+nvim foot.ini
+cd Documents/Scripts/rust
+cd fetch
+ls
+cd src
+nvim main.rs
+cd
+cd Documents/Latex/Discretas/
+ls
+mkdir notes-8-mar
+cd notes-8-mar/
+ls
+nnn
+ls
+mv template.tex notes.tex
+nvim template.tex
+ls
+latexmk -f -pdf notes.tex
+nvim notes.tex
+ls
+zathura --fork notes.pdf
+cd
+cd .config/zathura
+ls
+nvim zathurarc
+zathura
+cd
+cd Documents/Latex/Discretas/
+cd notes-8-mar/
+ls
+zathura --fork notes.pdf
+doas shutdown now
+doas systemctl start dhcpcd@wlan0
+cd
+cd Documents/Latex/Discretas/
+ls
+cd notes-8-mar/
+ls
+zathura --fork notes.pdf
+nvim notes.tex
+latexmk -f -pdf notes.tex
+bc
+cd .config/nvim
+ls
+cd lua/core
+ls
+latexmk -f -pdf notes.tex
+nvim autocmds.lua
+latexmk -f -pdf notes.tex
+doas systemctl start dhcpcd@wlan0
+clear
+cd Documents/Scripts/rust
+ls
+cd fetch
+ls
+cd Documents/Scripts/rust
+cd fetch
+cargo run
+cd src
+pacman -Ss sixel
+doas pacman -S libsixel
+pacman -Ss awesome
+doas pacman -S awesome-terminal-fonts otf-font-awesome 
+fc-cache
+nvim main.rs
+fetch
+cd .config
+cd
+cd .config
+nvim starship.toml
+clear
+ls
+clear
+fetch
+cd
+cd /usr/share/foot/themes
+nvim monokai-pro
+ls
+lls
+ls
+fetch
+ls
+cd
+ls
+clear
+ls
+nvim starship.toml
+cd
+cd Documents/vimwiki/
+ls
+nvim index.md
+touch OTW.md
+nvim index.md
+clear
+ssh -p 2220 bandit.labs.overthewire.org -l bandit0
+ssh -p 2220 bandit.labs.overthewire.org -l bandit1
+ssh -p 2220 bandit.labs.overthewire.org -l bandit2
+ssh -p 2220 bandit.labs.overthewire.org -l bandit3
+ssh -p 2220 bandit.labs.overthewire.org -l bandit4
+ssh -p 2220 bandit.labs.overthewire.org -l bandit5
+ssh -p 2220 bandit.labs.overthewire.org -l bandit6
+ssh -p 2220 bandit.labs.overthewire.org -l bandit7
+man find
+ssh -p 2220 bandit.labs.overthewire.org -l bandit7
+ssh -p 2220 bandit.labs.overthewire.org -l bandit9
+ssh -p 2220 bandit.labs.overthewire.org -l bandit8
+man uniq
+nvim OTW.md
+cat OTW.md
+ssh -p 2220 bandit.labs.overthewire.org -l bandit8
+nvim OTW.md\
+ssh -p 2220 bandit.labs.overthewire.org -l bandit9
+ssh -p 2220 bandit.labs.overthewire.org -l bandit10
+ssh -p 2220 bandit.labs.overthewire.org -l bandit11
+nvim OTW.md
+doas shutdown now
+doas systemctl start dhcpcd@wlan0
+cd Documents/git
+paur swhkd-git
+makepkg -si
+ls
+whereis paur
+cd .local/bin/
+bat paur
+paur swhkd-git
+ls
+cd AUR
+ls
+cd swhkd-git/
+makepkg -si
+cp /etc/swhkd/swhkdrc ~/.config/
+cd
+cd .config\
+cd .config
+mkdir -p swhkd
+^mkdir -p swhkd
+mv swhkdrc swhkd/
+cd swhkd/
+cd ../nviw
+cd ../nvim/
+ls
+cd lua/core
+ls
+nvim plugins.lua
+ls
+cd ..
+ls
+cd user
+ls
+nvim init.lua
+nvim +PackerSync
+cd ..
+cd core/
+ls
+nvim plugins.lua
+cd ..
+cd ../..
+cd swhkd/
+ls
+bat /etc/swhkd/swhkdrc
+cd /etc/swhkd/
+ls
+la
+cat swhkdrc
+nvim swhkdrc
+curl https://raw.githubusercontent.com/baskerville/bspwm/master/examples/sxhkdrc > swhkdrc
+ls
+get https://raw.githubusercontent.com/baskerville/bspwm/master/examples/sxhkdrc > swhkdrc
+http get https://raw.githubusercontent.com/baskerville/bspwm/master/examples/sxhkdrc > swhkdrc
+http get https://raw.githubusercontent.com/baskerville/bspwm/master/examples/sxhkdrc
+http get https://raw.githubusercontent.com/baskerville/bspwm/master/examples/sxhkdrc out> swhkdrc
+cd
+cd .config/sway/
+nvim swhkdrc
+cd
+nvim notes.tex
+ls
+bat test.md
+rm test.md 
+bat test
+rm test
+rm style.css
+nvim notes.md
+ls
+nvim keymap.config
+cd
+doas systemctl start dhcpcd@wlan0\
+doas systemctl start dhcpcd@wlan0
+clear
+backlight.sh 10
+backlight.sh 100
+clear
+cd Documents/Latex/
+ls
+mkdir 3030
+cd 3030
+nnn
+mkdir notes-9-mar
+cp template.tex notes-9-mar/notes.tex
+cd notes-9-mar/
+latexmk -f -pdf notes.tex
+zathura --fork notes.pdf
+latexmk -f -pdf notes.tex
+nvim notes.tex
+doas shutdown now
+doas systemctl start dhcpcd@wlan0
+cd .config/sway/
+ls
+nvim config
+doas systemctl suspend
+cd
+cd Documents/Scripts/rust
+ls
+cd cod.golf
+cd code.golf
+ls
+cargo new golf
+cd golf
+ls
+cd src
+cd Documents/Scripts/rust
+cd code.golf
+ls
+ls
+cd abundant_numbers/
+ls
+cd src
+ls
+bat main.rs
+nvim main.rs
+neovide main.rs
+cd Documents/Scripts/rust
+cd code.golf/golf
+cargo run -- test
+cargo run
+cd Documents/Scripts/rust
+cd code.golf/golf
+rustc --explain E0618
+cargo run -- abundant
+cargo run -- abundant-long
+cd ..
+ls
+cd collatz/
+cd src
+bat main.rs
+cargo run -- collatz
+cargo run -- 2doe
+cargo run -- abundant 3
+cargo add colored
+rustc --explain E0658
+bacon
+cargo clippy-all
+cargo --list
+cargo clippy -- -A clippy::all
+bacon
+cargo run -- abundant 3
+cargo run -- abundant
+cd ../..
+ls
+cd evil_numbers/
+cd src
+bat main.rs
+rustc --explain E0689
+cargo run -- evil
+cd ../..
+ls
+cd fibonacci/src
+bat main.rs
+cargo run -- fibonacci
+cargo run -- FizzBuzz
+cd
+cd Documents/Latex/Discretas/
+ls
+cd notes-27-feb/
+zathura template.pdf
+cd ..
+cd notes-8-mar/
+zathura notes.pdf
+cd ../notes-15-feb/
+zathura notes.pdf
+cd
+cargo run -- FizzBuzz
+cd Documents/Scripts/rust
+cd code.golf/golf
+cargo run -- FizzBuzz
+cargo run -- FooFizzBuzzBar
+cd ..
+ls
+cd abundant_numbers/
+cd src
+bat main.rs
+cargo run -- divisors
+cargo run -- emirp
+cargo run -- emirp-long
+cargo run -- emirp
+cargo run -- emirp-long
+cargo run -- help
+cargo run -- happy
+cargo build --release
+ls
+cd target/
+ls
+cd release/
+ls
+./golf help
+./golf  abundant
+./golf  abundant-long
+./golf  abundant-long abundant
+./golf help
+./golf emirp
+./golf emirp-long
+./golf help
+./golf happy
+./golf help
+./golf evil-long
+./golf fibonacci
+cd ../..
+cd golf
+cd src
+bat main.rs
+cat main.rs
+cd ../..
+cd src
+neovide main.rs
+cargo run -- FizzBuzz
+cargo run -- FooFizzBuzzBar
+doas systemctl suspend
+neovide main.rs
+bc -l
+python
+clear
+cd Documents/
+ls
+cat `LGR Cheat Sheet.docx`
+basenc 
+basenc --help
+base16
+pacman -Ss base16
+pacman -Ss base
+pacman -Ss basez
+pacman -Ss base
+pacman -Ss base|moar
+xlocate
+pacman -Ss xlocate
+doas pacman -Fy
+pacman -F base16
+pacman -F basez
+pacman -Fx "base.*"
+pacman -Fx "base[A-z0-9]*"
+pacman -Fx baseenc
+pacman -F basenc
+basenc --help
+echo 50 | xxd -r -p
+echo 2 | xxd -r -p
+echo 52 | xxd -r -p
+python
+ls
+bat main.rs
+cargo run -- help
+cargo run 
+cd Documents/Scripts/rust
+cd code.golf/golf
+cd src
+cat main.rs
+cargo run
+cargo run -- happy
+cargo run -- FizzBuzz
+cargo run -- happy
+bacon
+cargo clippy -- -A clippy::all
+cargo clippy -- -W clippy::all
+cargo clippy -- -W clippy::pedantic
+bacon
+cargo clippy -- -d clippy::all
+cargo clippy -- -D clippy::restriction clippy::pedantic clippy::nursery
+cargo clippy -- -D clippy::restriction -D clippy::pedantic -D clippy::nursery
+cargo clippy -- -D clippy::restriction -D clippy::pedantic -D clippy::nursery|moar
+cargo clippy -- -W clippy::restriction -W clippy::pedantic -W clippy::nursery|moar
+cargo clippy -- -W clippy::restriction -W clippy::pedantic -W clippy::nursery|less
+cargo clippy -- -W clippy::restriction
+cargo clippy -- -W clippy::restriction|moar
+cargo clippy -- -W clippy::restriction
+clear
+cargo clippy -- -W clippy::restriction
+cargo run -- thing
+cargo run -- happy
+nvim main.rs
+ls
+cd ..
+ls
+nnn
+cd
+cd Documents/git/Scripts/
+git add .
+git commit -m "add golf compendium"
+git config --global user.email "dsciencekid@gmail.com"
+git config --global user.name "Sunglas"
+git commit -m "add golf compendium"
+git add .
+cd rust/code.golf/golf/
+ls -a
+rm -rf .git
+cd ../../..
+git add .
+git commit -m "add golf compendium"
+git push origin main
+pass
+doas pacman -Ss pass
+doas pacman -S pass
+pass --help
+pass init
+doas pacman -S gnupg
+pass init dsciencekid@gmail.com
+pass insert github/Sunglas/token
+echo cgaeieurca | sha2sum
+echo cgaeieurca | sha1sum 
+echo cgaea | sha1sum 
+echo cgaea | sha1sum | sha1sum | sha1sum
+gpg --full-generate-key
+echo cgaea | sha512sum | sha512sum | sha512sum
+echo cgaea | sha512sum | sha512sum | sha512sum | sha512sum | sha512sum | sha512sum | sha512sum
+ls
+echo cgaea | sha512sum | sha512sum | sha512sum | sha512sum | sha512sum | sha512sum | sha512sum
+du
+pass init 39CB55528DAA251B77B2A8F90733558993E4DB1F
+pass insert github/Sunglas/token
+pass show -c github/Sunglas/token
+doas pacman -S wl-copy
+pacman -Ss wl
+doas pacman -S wl-clipboard
+pass show -c github/Sunglas/token
+backlight.sh 10
+backlight.sh 100
+ls
+cd
+cd Documents/Scripts/rust/
+cd code.golf/golf
+ls
+cd src
+cargo run -- prime
+cargo run -- divisors
+cargo run -- prime
+cargo run -- prime-long
+nvim main.rs
+doas systemctl suspend
+lynx gemini://example.com
+ls
+clear
+lynx gopher://example.com
+cd Documents/Scripts/rust/
+cargo new test
+cd test
+ls
+cargo new test_
+cd test_/
+ls
+cd src
+cd Documents/Scripts/rust/
+cd test_/
+cargo run
+calcerso
+calcurse
+clear
+cargo run
+carg run
+cargo run
+backlight.sh 10
+backlight.sh 100
+paur asuka
+cargo run
+cd Documents/Scripts/rust/
+cd test_/
+rustc --explain E0277
+cargo run
+bacon
+cd Documents/Scripts/rust/
+cd test_/
+cargo run
+cat src/main.rs|wl-copy
+cargo run
+cago run
+cargo run
+cd
+clear
+paru -Ss castor
+cd .config/
+ls
+cd waybar/\
+cd waybar/
+ls
+asuka
+cd
+clear
+pkill waybar
+waybar
+nvim style.css
+ls
+xrandr
+waybar
+paru -S castor
+waybar
+waybar\
+waybar
+nvim config
+waybar
+nvim style.css
+nvim config
+waybar
+cd Media/Downloads/
+ls
+mv k4.png ../Pictures/
+cd ../Pictures/
+mkdir Wallpapers
+ls
+mv Shrine.jpg k4.png Wallpapers/
+mv Shrine.jpg Wallpapers/
+mv k4 Wallpapers/
+mv k4.png Wallpapers/
+ls
+cd Wallpapers/
+ls
+img2sixel k4.png
+cci
+cd .config/sway/
+nvim config
+htop
+Hyprland
+paru -Ss hyprland
+clear
+nvim style.css
+cd
+cd .config/
+ls
+cd hypr/
+ls
+cd .config/sway/
+ls
+bat config
+doas pacman -Ss pipewire
+doas pacman -S pipewire
+doas pacman -S wireplumber
+doas pacman -S qt5-wayland qt6-wayland
+bat keymap.config
+doas pacman -S wofi polkit-kde-agent dunst
+htop
+killall Hyprland
+pidof Hypr
+ls
+htop
+Hyprland
+clear
+cd .config/hypr/
+ls
+wofi --show drun
+wofi
+doas pacman -S wofi
+wofi --show drun
+clear
+nvim hyprland.conf
+killall Hyprland
+ls
+cd .config/hypr/
+nvim hyprland.conf
+killall Hyprland
+Hyprland
+cd .config/hypr/
+Hyprland
+kitty
+wev
+hyprctl devices
+ls
+hyprctl monitors
+pacman -Ss qt6ct
+doas pacman -S qt6ct nwg-look
+pacman -Ss nwg
+paru -Ss nwg
+doas pacman -S qt6ct
+Hyprland
+doas pacman -Syu
+nvim hyprland.conf
+paru -Ss hyprland
+dos pacman -Syu
+doas pacman -Syu
+doas pacman -S qt6ct
+cd .config/waybar/
+pkill waybar
+waybar
+waybar\
+waybar
+pip3 install pywal
+doas pacman -S python pip
+pacman -Ss pip
+pacman -Ss pip|moar
+doas pacman -S pyhton-pip
+doas pacman -S python-pip
+config nu
+pacS python
+ls
+ls -a
+config nu
+cco
+ls
+clear
+cco
+clear
+cd .config/
+ls
+cat picom.conf
+clear
+man sh
+sh -h
+sh -c
+sh --help
+sh "$(find ~/.config | fzf | xargs nvim)"
+sh -c "$(find ~/.config | fzf | xargs nvim)"
+cd
+sh -c help
+sh -c "$(find ~/.config | fzf | xargs nvim)"
+sh help exec
+sh help eval
+sh eval
+sh eval find ~/.config
+sh eval find "~/.config"
+sh eval "find ~/.config"
+sh exec "find ~/.config"
+wal --preview
+pywal --preview
+pip3 install pywal
+bash "$(find ~/.config | fzf | xargs nvim)"
+bash $(find ~/.config | fzf | xargs nvim)
+man bash
+bash -- "$(find ~/.config | fzf | xargs nvim)"
+bash -- "find ~/.config | fzf | xargs nvim"
+paru -S nwg-look
+wal --preview
+wal
+cd Media/Pictures/Wallpapers/
+ls
+wal -i k4.png
+bat .zshrc
+clear
+doas wifi-menu
+clear
+ls
+config nu
+pkill waybar
+cd
+cd .cache/
+cd wal
+ls
+cat sequences
+bat sequences
+wal --preview
+gimp
+maim
+maim /tmp/image.png
+config nu
+grim
+pacS grim slurp
+pacS grim
+pacS grim slurp
+cci
+cck
+wal --preview
+grim -g "$(slurp)" - | tee /tmp/image.png | wl-copy
+slurp
+grim - | tee /tmp/image.png | wl-copy
+waybar
+wal --preview
+waybar
+cck
+clear
+gimp
+htop
+waybar
+nvim style.css
+lls
+ls
+nvim style.css
+nvim config
+cd ../
+waybar
+clear
+cci
+cd nvim/
+ls
+cd lua/core/
+ls
+cd ..
+ls
+cd user
+ls
+cd .config/nvim/
+cd lua/core/
+nvim init
+nvim init.lua
+ls
+nvim init.lua
+nvim plugins.lua
+wal
+wal --preview
+nvim init.lua
+clear
+cd
+clear
+wal -R
+cd .cache/wal/
+cat sequences &
+config nu
+cci
+cd Documents/Scripts/
+cd cpp/
+ls
+mkdir long-distance
+touch makefile
+nvim makefile
+cd Documents/Scripts/
+ls
+cd cpp/
+ls
+cd long-distance/
+ls
+ls -lah
+ls -a
+ls
+cd ..
+ls
+cd tickets/
+ls
+bat makefile
+nvim main.cpp
+ls
+mv main.cpp long-distance/
+mv makefile long-distance/
+ls
+cd long-distance/
+nvim makefile
+ls
+bat main.cpp
+cd ../long-distance/
+make
+./a.out
+make && ./a.out
+make and ./a.out
+make ;\and ./a.out
+make ;and ./a.out
+make ; ./a.out
+make
+./a.out
+make
+clear
+./a.out
+make
+./a.out
+make
+./a.out
+clear
+./a.out
+make
+clear
+./a.out
+make
+./a.out
+cat main.cpp | head -n11
+cat main.cpp | head -n11|feet
+cat main.cpp | head -n11|tail -n3
+cat main.cpp | head -n11|tail -n4
+clear
+cat main.cpp | head -n11|tail -n4
+cat main.cpp | head -n14|tail -n1
+cat main.cpp | head -n13|tail -n1
+clear
+cat main.cpp | head -n13|tail -n1
+nvim main.cpp
+clear
+cat main.cpp
+./a.out
+nvim main
+make
+./a.out
+make
+./a.out
+make
+./a
+./a.out
+make
+./a.out
+make
+./a.out
+make
+./a.out
+make
+./a.out
+make
+./a.out
+make
+./a.out
+make
+./a.out
+make
+./a.out
+make
+./a.out
+make
+./a.out
+make
+./a.out
+clear
+nvim main.cpp
+celar
+cci
+ls
+clear
+nu
+nu --version
+vivid
+xlocate
+pacSs xlocate
+cd .config/waybar/
+ls
+nvim config
+nvim style.css
+cd
+cd Documents/Scripts/shell/
+nvim color.ssh
+mv color.ssh color.sh
+dash color.sh
+sh color.sh
+cd
+clear
+neofetch
+clear
+fetch
+cd
+cd .config/waybar/
+nvim style.css
+pkill waybar
+waybar
+nvim config
+waybar
+nvim config
+doas systemctl suspend
+waybar
+nvim style.css
+clear
+nvim style.css
+pkill waybar
+waybar
+cd Documents/Scripts/shell/
+nvim color.bash
+bash color.bash
+clear
+bash color.bash
+clear
+pfetch
+paru -Ss pfetch
+cd .config/waybar/
+nvim config
+cargo install pfetch
+cargo install fd
+pfetch
+doas pacman -Syu
+cargo install --locked hyperfine
+clear
+pfetch
+v
+:q
+clear
+pacSs picke
+paru -S wl-color-picker
+doas systemctl start dhcpcd@wlan0
+doas wifi-menu
+clear
+paru -S wl-color-picker
+wl-color-picker
+wl-color-picker clipboard
+gc git clone https://github.com/yuune/yuune-vim-startpage.git
+cd Documents/git/
+gc https://github.com/yuune/yuune-vim-startpage.git
+cd yuune-vim-startpage/
+ls
+cp index.html ~
+cd
+cd Documents/git/
+ls
+cd yuune-vim-startpage/
+nvim index.html
+ls
+nvim main.js
+ls
+wl-color-picker clipboard
+nvim web.json
+cat *
+cat *|rg undefined
+cat *|rg "undefined"
+ls
+nvim style.css
+nvim index.html
+nvim web.json
+nvim main.js
+cd
+ping 9.9.9.9
+cd Documents/git/
+cd yuune-vim-startpage/
+ls
+nvim web.json
+nvim jquery.min.js
+nvim tinycolor.js
+cd Documents/git/
+cd yuune-vim-startpage/
+cat web.json
+firefox --allow-file-access-from-files
+nvim main.js
+ls
+cd
+ls -a
+cd .mozilla/
+ls
+cd firefox/
+ls
+cd 9e5fabe9.default/
+ls
+cd ..
+ls bbq1p1yv.default-release/
+cd bbq1p1yv.default-release/
+ls
+cd ..
+ls
+cd 9e5fabe9.default/
+ls
+cd ..
+ls
+cd bbq1p1yv.default-release/
+ls
+ls
+pwd
+nvim user.js
+firefox --help
+firefox --new-instance
+firefox --new-instance\
+firefox --new-instance
+nvim user.js
+firefox --new-instance
+nvim user.js
+cd
+cd .mozilla/
+ls
+cd firefox/bbq1p1yv.default-release/
+ls
+cat user.js
+firefox --new-instance
+clear
+cd Documents/git/
+cd yuune-vim-startpage/
+nvim web.json
+cd Documents/git/
+cd yuune-vim-startpage/
+nvim web.json
+cd
+cd .mozilla/
+cd firefox/bbq1p1yv.default-release/
+ls
+mkdir chrome
+ch chrome
+cd chrome/
+curl https://raw.githubusercontent.com/Etesam913/slick-fox/master/userChrome.css > userChrome.css
+curl https://raw.githubusercontent.com/Etesam913/slick-fox/master/userChrome.css -o userChrome.css
+ls
+bat userChrome.css
+wl-color-picker clipboard
+#DCBCB6
+wl-color-picker clipboard
+#222F30
+wl-color-picker clipboard
+#325657
+wal --preview
+wl-color-picker clipboard
+pwd
+cd Documents/git/
+wl-color-picker clipboard
+nvim userChrome.css
+cd
+cd
+cbonsai
+wal --preview
+fetch
+cd
+clear
+fetch
+pfetch
+clear
+fetch
+grimp --help
+man grim
+sleep 5
+sleep
+sleep --help
+sleep 5sec; grim /tmp/image.png
+mv /tmp/image.png Media/Pictures/rice1.png
+mv /tmp/image.png Media/Pictures/rice2.png
+cd .config/zathura/
+ls
+nvim zathurarc
+cp catppuccin-mocha custom
+nvim custom
+nvim zathurarc
+cd
+cd Documents/
+ls
+zathura Asig4-Demostraciones.pdf
+cd .config/zathura/
+ls
+cd Documents/
+zathura Asig4-Demostraciones.pdf
+wl-color-picker clipboard
+#1E1E2E
+nvim custom
+zathura Asig4-Demostraciones.pdf
+clear
+cd
+cd Media/Pictures/
+ls
+img2sixel rice1.png
+img2sixel rice2.png
+fetch
+clear
+fetch
+cd
+clear
+fetch
+clear
+cd Documents/Latex/Discretas/
+ls
+cd 8-de-febrero/
+ls
+nvim Asig1DiegoEstrada.tex
+cd
+cd Documents/Scripts/rust/
+ls
+cd code.golf/golf/
+ls
+cd src/
+cd Documents/Scripts/rust/
+cd code.golf/golf/
+cd code.golf/golf/
+cargo run -- prime-long
+sleep 5sec; grim Media/Pictures/Rice3.png
+cargo run -- prime
+nvim main.rs
+clear
+doas systemctl suspend
+doas shutdown now
+ls
+rm index.html
+cd .config/waybar/
+ls
+pkill waybar
+waybar
+doas sysctemctl start dhpcd@wlan0
+doas sys\temctl start dhpcd@wlan0
+doas systemctl start dhpcd@wlan0
+doas systemctl start dhcpcd@wlan0
+config nu
+clear
+cd Documents/git/
+cd yuune-vim-startpage/
+nvim web.json
+pkill waybar
+wifiStart
+cd .config/waybar/
+cd .config/waybar/
+neofetch
+clear
+neofetch
+env.PATH
+$env.PATH
+$env.EDITOR
+neofetch
+waybar
+cd
+clear
+fetch
+clear
+fetch
+grim - | tee /tmp/image.png | wl-copy
+sleep 5sec ; grim - | tee /tmp/image.png | wl-copy
+clear
+fetch
+cd Documents/Scripts/
+cd rust/
+cd fetch/
+ls
+cd sr
+cd src
+ls
+bat main.rs
+fmt
+fetch
+nvim main.rs
+bat main.rs
+clear
+cd
+clear
+clear
+wl-color-picker clipboard
+#151D1D
+wl-color-picker clipboard
+#151D1D
+wl-color-picker clipboard
+ping 9.9.9.9
+test
+test false
+test true
+test
+clear
+fetch
+ls
+clear
+cd Documents/Scripts/
+ls
+wl-color-picker clipboard
+clear
+cd
+cd Documents/git/
+cd yuune-vim-startpage/
+sleep 2sec ; grim - | tee /tmp/image.png | wl-copy
+nvim web.json
+sleep 2sec ; grim - | tee /tmp/image.png | wl-copy
+curl https://twitter.com/i/status/1607752472331689991
+yt-dlp
+yt-dlp https://twitter.com/i/status/1607752472331689991
+yt-dlp https://twitter.com/i/status/1633950802795429889
+clear
+ls
+yt-dlp https://twitter.com/i/status/1633950802795429889
+ls
+mkdir temp
+cp `Spøgelsesmaskinen - eject [1607752404602060801].mp4` temp/vid.mp4
+cd temp/
+ls
+ffmpeg -i vid.mp4 -r 0.25 output_%o4d.png
+ffmpeg -i vid.mp4 -r 0.25 output_%04d.png
+ls
+feh output_0001.png
+feh output_0004.png
+ffmpeg -i vid.mp4 -r 1 output_%04d.png
+ls
+feh output_0012.png
+nvim index.html
+neofetch
+ffmpeg -i vid.mp4 output_%04d.png
+ls
+convert 
+convert output_%o4d.png +level-colors black,"#222F30" out.png
+ls
+feh out.p
+feh out.png
+convert output_%o4d.png +level-colors white,"#222F30" out.png
+feh out.png
+convert output_%o4d.png -fuzz 5% 2 -fill "#222F30" -opaque black out.png
+convert output_%o4d.png -fuzz 5% 2 -fill black -opaque "#222F30" out.png
+convert output_%o4d.png -fuzz 5% -fill black -opaque "#222F30" out.png
+feh out.png
+convert output_%o4d.png -fuzz 10% -fill "#222F30" -opaque black out.png
+feh out.png
+convert out.png -fuzz 10% -fill "#EDE1E0" -opaque white out.png
+feh out.png
+rm out.png
+rm output_%o4d.png
+ls
+find *.png
+find . -name *.png
+find . *.png
+fd
+cd temp/
+nvim change.sh
+shellcheck change.sh
+fd
+neofetch
+cargo install fd-find
+fd
+fd .png
+fd .png|wc -l
+nvim change.sh
+shellcheck change.sh
+dash -x change.sh
+ls
+nvim change.sh
+shellcheck change.sh
+nvim change.sh
+shellcheck change.sh
+dash -x change.sh
+nvim change.sh
+ls
+ffmpeg -f 
+ffmpeg -f aaa
+ffmpeg -h
+ffmpeg -f image2 -framerate 30 -i edit_output_$04d.png out.gif
+ffmpeg -f image2 -framerate 30 -i edit_output_%04d.png out.gif
+nvim index.html
+wf-recorder
+backlight.sh 10
+backlight.sh 100
+ls
+^mv `NEOMECHANICA - https：⧸⧸t.co⧸BedosnlYxB [1633910247017381889].mp4` `Spøgelsesmaskinen - eject [1607752404602060801].mp4` Media/Pictures/
+mv temp/out.gif Media/Pictures/disks.gif
+nvim index.html
+nvim web.json
+cd temp
+ls
+bat change.sh
+clear
+bat change.sh
+grim - | tee /tmp/image.png | wl-copy
+nvim index.html
+nvim web.json
+cd
+clear
+pacS wf-recorder
+pacSs wf-recorder
+pacS wf-recorder
+clear
+wf-recorder
+ls
+mpv recording.mp4
+rm recording.mp4
+clear
+rm recording.mp4
+clear
+wf-recorder
+cci
+cci
+cd Documents/Scripts/rust/
+cd code.golf/golf/
+cd src
+cd Documents/Scripts/rust/
+cd code.golf/golf/
+cd Documents/Scripts/rust/
+cd code.golf/golf/
+cargo run
+bacon
+nvim main.rs
+cci
+ccki
+cck
+cd
+cd Documents/git/
+cd yuune-vim-startpage/
+nvim web.json
+cd
+clear
+cci
+clear
+fetch
+clear
+fetch
+cd Documents/Scripts/rust/
+ls
+cd mandelbrot/
+ls
+cd src
+ls
+nvim main.rs
+cd ../../..
+cd cpp/
+ls
+cd mandelbrot-lambda/
+ls
+nvim main.cpp
+neofetch
+cd
+clear
+neofetch
+htop
+cd Documents/Scripts/rust/
+cd code.golf/golf/
+cd src
+cd Documents/Scripts/rust/
+cd code.golf/golf/
+cd Documents/Scripts/rust/
+cd code.golf/golf/
+cargo run -- collatz
+wl-color-picker clipboard
+nvim main.rs
+cd
+bacon
+clear
+cmatrix
+cd
+cd Documents/git/
+cd yuune-vim-startpage/
+ls
+paru -Ss meiryo
+nvim style.css
+clear
+cd
+clear
+cco
+find ~/.config
+^find ~/.config
+^find ~/.config|fzf
+^find ~/.config|fzf|xargs nvim
+config nu
+cco
+11;rgb:2222/2f2f/30300u62;4;22cls
+ls
+(^find ~/.config | fzf | xargs nvim)
+11;rgb:2222/2f2f/30300u62;4;22cclear
+clear
+config nu
+nvim (^find ~/.config | fzf)
+config nu
+cco
+coreutils
+bat .zshrc
+cd Documents && ls
+cd Documents and ls
+cd Documents |and ls
+cd Documents | ls
+cd
+cd Documents | ls
+cd Documents ; ls
+cl Documents/
+ls
+cd
+bat .zshrc
+cd Documents || ls
+cd Documents  ; try ls
+cd Documents  ; or ls
+cd Documents or ls
+or
+or --help
+or -h
+or cd Documents ls
+cd
+ls temp
+cp temp/change.sh Documents/Scripts/shell/
+rm -r temp/
+mkcd temp
+ls
+cd temp
+cd ..
+rm -r temp/
+mkcd temp
+ls temp
+rm -r temp/
+ls | get name
+ls --color=always
+ls --help
+mkcd tempp
+rm -r temp/
+rm -r tempp
+mkcd temp
+ls temp
+rm -r temp
+coreutils mkdir test
+coreutils rmdir test
+mkcd temp
+cl temp
+ls
+cd temp
+ls
+cd
+cl temp
+ls temp
+cd temp
+pwd
+cl temp
+coreutils -h
+config nu
+neofetch
+cci
+config nu
+cci
+ls
+ex
+ls
+^ls
+ls
+^ls
+clear
+date
+clear
+config nu
+cco
+ex
+foot --server &
+foot
+clear
+ex
+rm .bash_history
+bat .bash_profile
+rm .bash_profile
+bat .bashrc
+rm .bash_rc
+rm .bashrc
+ls
+ex
+rm .gmrun_history
+bat .zshenv
+$env.LESSHISTFILE
+config env
+doas systemctl suspend
+clear
+cd Documents/Scripts/rust/
+ls
+cd code.golf/golf/
+cd src
+ls
+pactl info
+nvim main.rs
+doas systemctl suspend
+ping 9.9.9.9
+htop
+top 
+clear
+cd
+paru -S swayfx
+doas pacman -S polkit
+doas pacman -S mako
+wireplumber
+sway --version
+pacman -Qs sway
+doas pacman -S swayfx
+pacman -Ss figlet
+pacman -Ss text
+pacman -Ss ascii
+doas pacman -S banner
+ls
+banner --help
+banner -C "text"
+banner -C "text" -f 2
+cci
+cd Documents/git/
+cd yuune-vim-startpage/
+nvim web.json
+cd
+cd Documents/Scripts/rust/
+cargo new ascii
+cd ascii
+cd src
+nvim mini.asc
+mv mini.asc mini.toml
+nvim mini.toml
+nvim main.rs
+cat mini.toml | wl-copy
+nvim main.rs
+nvim mini.toml
+cat mini.toml | wl-copy
+nvim main.rs
+nvim mini.toml
+mkdir data
+mv mini.toml data/
+ls
+ls data/
+cd Documents/Scripts/rust/
+cd ascii
+ls
+cd Documents/Scripts/rust/
+cd ascii
+cargo add serde
+cargo add toml
+nvim Cargo.toml
+cargo run
+cd src
+cargo run
+cd Documents/Scripts/rust/
+cd ascii/
+cd src/data/
+nvim mini.toml
+cat mini.toml | wl-copy
+cargo run
+nvim mini.toml
+cat mini.toml | wl-copy
+nvim mini.toml\
+cargo run
+ls
+ls data
+cat data/mini.toml
+cargo run
+nvim main.rs
+htop
+doas systemctl suspend
+wifiStart
+cd
+clear
+cd Documents/git/
+ls
+celar
+clear
+ex
+cd dotfiles
+ex
+cd ..
+gc https://github.com/Sunglas/dots.git
+cd dots
+ex
+cd Documents/git/
+cd dots
+ls
+ex
+glow README.md
+nnn
+cd Documents/git/
+cd dots
+ex
+cd foot
+ex
+mako
+make -h
+notify-send -h
+mako -h
+mako test
+mako "test"
+man mako
+makoctl -h
+makoctl list
+pacSs notify-send
+xdg-open "https://example.com"
+bash
+clear
+cco
+nvim foot.ini
+ex
+cd ..
+ex
+cco
+ex
+find .
+find /
+fd /*
+fd '/*'
+clear
+neofetch
+wal --preview
+wl-color-picker clipboard
+ls
+wl-color-picker clipboard
+wal --preview
+wl-color-picker clipboard
+neofetch
+fetch
+cd Documents/git/
+cd dots
+ls
+ex
+wl-color-picker clipboard
+ex
+cat .cache/wal/sequences
+clear
+ex
+clear
+cco
+ex
+cd .config/nvim
+ls
+ex
+rm vim-colorschemes/
+rm -r vim-colorschemes/
+nvim
+cd ..
+cci
+cd waybar
+ex
+nvim config
+cd ../zathura/
+ex
+rm catppuccin-*
+ex
+wal --preview
+nvim custom
+cd Documents/Latex/Discretas/
+ex
+cd 1-de-marzo/
+ex
+zathura Asig4-Demostraciones.pdf
+clear
+ex
+zathura Asig4DiegoEstrada.pdf
+ex
+cd ..
+nvim starship.toml
+ex
+nu
+clear
+cd sway
+ex
+nvim keymap.config
+cd ..
+cd wal/
+ex
+cd colorschemes/
+ex
+cd dark
+ex
+ex -a
+cd ..
+ex
+cd templates/
+ex
+ex -a
+rm -rf foot/ nushell/ nvim/ sway/ wal waybar zathura starship.toml
+cd ..

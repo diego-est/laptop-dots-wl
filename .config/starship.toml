@@ -1,0 +1,32 @@
+#                           
+#  _ _|_  _. ._ _ |_  o ._  
+# _>  |_ (_| | _> | | | |_) 
+#                       |   
+
+format = '''
+[>](bold red)[>](bold yellow)[>](bold green) [$cmd_duration](bold cyan)[$directory](bold orange)
+[\( $character\) ](purple)
+'''
+
+add_newline = false
+
+[directory]
+style = 'bold fg:#FC9867'
+
+[cmd_duration]
+style = 'bold cyan'
+min_time = 10
+show_milliseconds = true
+
+[character]
+success_symbol = "[λ](purple)"
+error_symbol = "[⍕](bold red)"
+vimcmd_symbol = "[⍫](green)"
+vimcmd_replace_one_symbol = "[⍫](purple)"
+vimcmd_replace_symbol = "[⍫](bold purple)"
+vimcmd_visual_symbol = "[⍫](yellow)"
+
+[sudo]
+style = "bold green"
+symbol = "⍵"
+disabled = false
