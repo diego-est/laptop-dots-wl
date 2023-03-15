@@ -1,5 +1,7 @@
 # dots
 
+![The Rice](https://media.discordapp.net/attachments/635625917623828520/1085283400610488442/rice_comp.png)
+
 ## Colors
 I used [`pywal`](https://github.com/dylanaraps/pywal) to generate this colorscheme, feel free to do the same.
 
@@ -35,8 +37,7 @@ So simply modify the variables in the source file to fit your setup and `cargo b
 
 ## Assets
 
-eject by [Spogelsesmankinen](https://twitter.com/spogelsemaskine)
-https://twitter.com/spogelsemaskine/status/1607752472331689991
+[eject](https://twitter.com/spogelsemaskine/status/1607752472331689991) by [Spogelsesmankinen](https://twitter.com/spogelsemaskine)
 
 Could not find the original artist for the background but I found this wallhaven post with a pretty high res version saved.
 https://whvn.cc/yxqj6l
