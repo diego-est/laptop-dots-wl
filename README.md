@@ -48,13 +48,13 @@ https://whvn.cc/yxqj6l
 
 I copied most of what's in this:
 https://github.com/okitavera/vimstart
-(I dded the lil' gif at the side and changed some of the website links.)
+(I added the lil' gif at the side and changed some of the website links.)
 
 In order to have this work you will have to enable firefox to be able to view `file://` from within a locally hosted html file.
 I'm guessing you could get around having to disable these security policies by locally hosting the html but I'm not quite there yet...
 
 Provided is a user.js inside `.mozilla/firefox/default-release` with the necessary changes to make.
-More specifically, these three lines (as documented in http://kb.mozillazine.org/Links_to_local_pages_do_not_work):
+More specifically, these three lines (as documented in https://kb.mozillazine.org/Links_to_local_pages_do_not_work):
 ```js
 user_pref("capability.policy.policynames", "localfilelinks");
 user_pref("capability.policy.localfilelinks.sites", "file://");
@@ -79,14 +79,15 @@ Additionally, my nvim version is `0.8.0` and was installed through [bob-nvim](ht
 As seen in my screenshot I am using [nushell](https://www.nushell.sh/).
 A new type of shell that deals with data instead of simple text streams.
 Very interesting and fast out of the box (even on my 2008 hardware).
-**NOTE** I have a bunch of aliases at the end of my nushell config file that replace most of the gnu coreutils with rust implementations of each.
+**NOTE** I have a bunch of aliases at the end of my nushell config file that replace most of the gnu coreutils with [rust implementations](https://github.com/uutils/coreutils) of each.
 
 ## Sway
 ### I am not using the upstream sway.
 I am using [swayfx](https://github.com/WillPower3309/swayfx).
-That means that the options under the swayfx area in my sway config will most definitely give you errors when launching sway.
+A fork of sway that adds corners, shadows and active/inactive dim.
+That means that the options under the swayfx area in my sway config will most definitely give you errors when launching the upstream sway istead of swayfx sway.
 
 ### dvorak
 ***IMPORTANT***
 My keybinds and input layout in sway are set to a dvorak keyboard.
-So if you are using a normal qwerty keyboard remember to change the layout back to normal in teh sway config and possibly change the sway keybinds around.
+So if you are using a normal qwerty keyboard remember to change the layout back to normal in the sway config and possibly change the sway keybinds around in the keymap config.
