@@ -6,7 +6,7 @@
 
 ## Colors
 I used `pywal` to generate this colorscheme, feel free to do the same.
-* [pywal](https://github.com/dylanaraps/pywal)
+* [pywal GitHub](https://github.com/dylanaraps/pywal)
 
 ```
 Black:   #222F30
@@ -69,6 +69,7 @@ user_pref("capability.policy.localfilelinks.sites", "file://");
 user_pref("capability.policy.localfilelinks.checkloaduri.enabled", "allAccess");
 ```
 * [mozillazine](https://kb.mozillazine.org/Links_to_local_pages_do_not_work)
+
 Additionally, if you are running the latest version of firefox (hopefully):
 Toggle `security.fileuri.strict_origin_policy` to `false` in your `about:config` page.
 
