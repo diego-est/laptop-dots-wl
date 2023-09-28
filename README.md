@@ -36,7 +36,7 @@ The program displays:
 ```
 
 So simply modify the variables in the source file to fit your setup and `cargo build --release` to get the binary.
-(Tip: I copied the binary over to `./local/bin/`.)
+(Tip: I copied the binary in `target/release/` over to `~/.local/bin/`.)
 
 ## Assets
 
@@ -74,6 +74,14 @@ Additionally, if you are running the latest version of firefox (hopefully):
 Toggle `security.fileuri.strict_origin_policy` to `false` in your `about:config` page.
 
 ### Other Firefox css tweaks
+First you will have to enable user stylesheet customization. If you have done
+this previously then skip to the next paragraph. To do that navigate to
+`about:config` in your search bar. It will initially ask you if you are sure
+that you want to make changes to your config since there are potential security
+risks that you can enable in here. After accepting search for this term
+`toolkit.legacyUserProfileCustomizations.stylesheets` and switch the arrow on
+the right to true.
+
 I copied `color_variable_template` and `autohide_tabstoolbar` templates from this incredible firefox css website:
 * https://mrotherguy.github.io/firefox-csshacks/
 
