@@ -1,3 +1,5 @@
+Moved to [SourceHut](https://git.sr.ht/~diego-est/laptop-dots-wl)
+
 <!-- LTeX: language=en,es -->
 
 # dots
